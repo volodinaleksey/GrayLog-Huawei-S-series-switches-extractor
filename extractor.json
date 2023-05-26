@@ -1,0 +1,19 @@
+{
+  "extractors": [
+    {
+      "title": "Huawei S series switches extractor",
+      "extractor_type": "grok",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "",
+      "extractor_config": {
+        "grok_pattern": "\\<%{NOTSPACE:UNWANTED}\\>%{MONTH} %{MONTHDAY} %{YEAR} %{TIME} %{HOSTNAME} %%%{WORD:program}/%{POSINT:severity}/%{WORD:type}\\(%{NOTSPACE:UNWANTED}\\):%{GREEDYDATA:message}"
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    }
+  ],
+  "version": "5.0.7"
+}
