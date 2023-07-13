@@ -9,7 +9,7 @@
       "source_field": "message",
       "target_field": "",
       "extractor_config": {
-        "grok_pattern": "\\<%{NOTSPACE:UNWANTED}\\>%{MONTH} %{MONTHDAY} %{YEAR} %{TIME} %{HOSTNAME} %%%{WORD:program}/%{POSINT:severity}/%{WORD:type}\\(%{WORD:flag}\\):%{GREEDYDATA:message}"
+        "grok_pattern": "\\<%{NOTSPACE:UNWANTED}\\>%{MONTH} %{MONTHDAY} %{YEAR} %{TIME} %{HOSTNAME} %%%{WORD:program}/%{POSINT:level}/%{WORD:type}\\(%{WORD:flag}\\):%{GREEDYDATA:message}"
       },
       "condition_type": "none",
       "condition_value": ""
@@ -23,7 +23,7 @@
       "source_field": "message",
       "target_field": "",
       "extractor_config": {
-        "grok_pattern": "\\<%{NOTSPACE:UNWANTED}\\>%{MONTH} %{MONTHDAY} %{YEAR} %{TIME} %{HOSTNAME} %{WORD:module}/%{WORD:SEVERITY}/%{WORD:BRIEF}:OID %{NOTSPACE:UNWANTED} %{GREEDYDATA:MESSAGE}"
+        "grok_pattern": "\\<%{NOTSPACE:UNWANTED}\\>%{MONTH} %{MONTHDAY} %{YEAR} %{TIME} %{HOSTNAME} %{WORD:module}/%{WORD:level}/%{WORD:brief}:OID %{NOTSPACE:UNWANTED} %{GREEDYDATA:message}"
       },
       "condition_type": "none",
       "condition_value": ""
