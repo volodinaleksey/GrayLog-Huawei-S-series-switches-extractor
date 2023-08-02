@@ -8,7 +8,8 @@ Basic extractor for Huawei S series switches logs.
 # Bugs
 
 Huawei adding extra spce in dates:
-![photo_2023-08-02_14-28-14](https://github.com/volodinaleksey/GrayLog-Huawei-S-series-switches-extractor/assets/82817077/6ce048b8-8a75-463c-bc18-e86330a27c2d)
+
+![omage](https://github.com/volodinaleksey/GrayLog-Huawei-S-series-switches-extractor/assets/82817077/6ce048b8-8a75-463c-bc18-e86330a27c2d)
 
 
 # URL
