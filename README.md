@@ -7,12 +7,12 @@ Basic extractor for Huawei S series switches logs.
 
 # Bugs
 
-Huawei adding extra spce in dates:
+Huawei adds extra space in dates:
 
 ![omage](https://github.com/volodinaleksey/GrayLog-Huawei-S-series-switches-extractor/assets/82817077/6ce048b8-8a75-463c-bc18-e86330a27c2d)
 
 
 # URL
-Huawei S series switches log messages format
+Huawei S series switches log messages format documentation:
 
 https://support.huawei.com/enterprise/en/doc/EDOC1000174088/97342dce/log-message-format-description
